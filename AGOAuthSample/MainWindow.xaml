@@ -1,0 +1,19 @@
+﻿<Window x:Class="AGOAuthSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AGOAuthSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" x:Name="signInButton" Content="Sign In" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"
+                Click="signInButton_Click" />
+        <Button Grid.Column="1" x:Name="signOutButton" Content="Sign Out" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"
+                Click="signOutButton_Click" IsEnabled="False" />
+    </Grid>
+</Window>
