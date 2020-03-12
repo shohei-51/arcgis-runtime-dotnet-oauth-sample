@@ -66,8 +66,8 @@ namespace AGOAuthSample
             _window = new Window
             {
                 Content = webBrowser,
-                Height = 400,
-                Width = 330,
+                Height = 420,
+                Width = 350,
                 WindowStartupLocation = WindowStartupLocation.CenterOwner
             };
 
